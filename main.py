@@ -56,4 +56,4 @@ def viewImages():
 
 if __name__ == "__main__":
     app.secret_key = 'secret123'
-    app.run(port=4555, debug=True)
+    app.run()
